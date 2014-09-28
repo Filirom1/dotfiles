@@ -7,6 +7,9 @@ call vundle#begin()
 Bundle 'marijnh/tern_for_vim'
 Bundle 'Syntastic'
 Bundle 'Solarized'
+Bundle 'flazz/vim-colorschemes'
+Bundle "tomasr/molokai"
+
 "Bundle 'pangloss/vim-javascript'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'kchmck/vim-coffee-script'
@@ -27,8 +30,7 @@ filetype plugin indent on
 
 " Color
 let g:vim_markdown_folding_disabled=1
-let g:solarized_termcolors=256
-colorscheme solarized
+set  t_Co=256
 
 " Syntax highlightment
 syntax enable
