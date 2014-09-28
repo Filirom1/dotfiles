@@ -14,6 +14,9 @@ Bundle 'ap/vim-css-color'
 Bundle 'hail2u/vim-css3-syntax'
 Bundle 'wavded/vim-stylus'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-bundler'
 
 " Load the plugin
 filetype plugin indent on
