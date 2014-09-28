@@ -1,7 +1,8 @@
 set nocompatible
-filetype off
+filetype off " required for vundle
 
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 Bundle 'marijnh/tern_for_vim'
 Bundle 'Syntastic'
@@ -17,6 +18,9 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-bundler'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
 
 " Load the plugin
 filetype plugin indent on
