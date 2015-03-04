@@ -28,8 +28,10 @@ call vundle#end()            " required
 " Load the plugin
 filetype plugin indent on
 
-" Color
 let g:vim_markdown_folding_disabled=1
+au BufRead,BufNewFile *.json set filetype=json
+
+" Color
 set  t_Co=256
 
 " Syntax highlightment
